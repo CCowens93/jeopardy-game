@@ -13,15 +13,24 @@ h1{
     display: flex;
     justify-content: center;
     font-size: 100px;
+    padding: 60px;
+    margin: 10px;
 }
+
 h2{
+    display:block;
+    text-align: center;
+    margin: 50px;
+}
+h3{
     outline-style: solid;
     margin: 20px;
-    padding: 30px;
+    padding: 40px;
 }
 .column1, .column2, .column3, .column4, .column5{
     display: flex;
     flex-direction: column;
+    margin: 0px;
     outline-style: solid;
     background-color: lightskyblue;
 }
@@ -29,7 +38,7 @@ h2{
 .gameboard{
     display:flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     
 }
 
