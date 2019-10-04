@@ -1,7 +1,7 @@
 let points = 0
 let myQuestions = [
     {
-        question: "What is 10/2?",
+        question: ["What is 10/2?"],
         answerA: [3, false],
         answerB: [5, true],
         answerC: [15, false], 
@@ -9,24 +9,25 @@ let myQuestions = [
     },
 
     
-    {   question: "What color is the sky?",
+    {   question: ["What color is the sky?"],
         answerA: ["blue", true],
         answerB: ["green", false],
         answerC: ["red", false],
         answerD: ["purple", false]
         
-    }]
-    //{
-     //   question: "Which is a card game?",
-      //  answerA: ["monopoly",false],
-      //  answerB: ["chess", false],
-      //  answerC: ["solitaire", true],
-      //  answerD: ["clue", false]
-   // }
+    },
+    {
+        question: ["Which is a card game?"],
+        answerA: ["monopoly",false],
+        answerB: ["chess", false],
+        answerC: ["solitaire", true],
+        answerD: ["clue", false]
+   }
+]
    
 
 const CategoryOne100Points = myQuestions[0];
-document.getElementById('Q-S').innerHTML = myQuestions[0].question
+document.getElementById('Q-S').innerHTML = myQuestions[0].question[0]
 document.getElementById('answer-1').innerHTML = myQuestions[0].answerA[0]
 document.getElementById('answer-2').innerHTML = myQuestions[0].answerB[0]
 document.getElementById('answer-3').innerHTML = myQuestions[0].answerC[0]
@@ -35,10 +36,11 @@ let QuestionOne = document.getElementById('Q1');{
     QuestionOne.addEventListener('click', () =>{
         document.getElementById('Q-C').className ="show"
   })
-}   
+}
 
-const CategoryTwo100Points = myQuestions[1];
-document.getElementById('Q-S2').innerHtml = myQuestions[1].question
+
+const CategoryOne200Points = myQuestions[1];
+document.getElementById('Q-S2').innerHtml = myQuestions[1].question[0]
 document.getElementById('answer-1-2').innerHTML = myQuestions[1].answerA[0]
 document.getElementById('answer-2-2').innerHTML = myQuestions[1].answerB[0]
 document.getElementById('answer-3-2').innerHTML = myQuestions[1].answerC[0]
@@ -48,6 +50,38 @@ let QuestionTwo = document.getElementById('Q2');{
         document.getElementById('Q-C2').className ="show"
   })
 }   
+
+const CategoryOne300Points = myQuestions[2];
+document.getElementById('Q-S3').innerHtml = myQuestions[2].question[0]
+document.getElementById('answer-1-3').innerHTML = myQuestions[2].answerA[0]
+document.getElementById('answer-2-3').innerHTML = myQuestions[2].answerB[0]
+document.getElementById('answer-3-3').innerHTML = myQuestions[2].answerC[0]
+document.getElementById('answer-4-3').innerHTML = myQuestions[2].answerD[0]
+let QuestionThree = document.getElementById('Q3');{
+    QuestionThree.addEventListener('click', () =>{
+        document.getElementById('Q-C3').className ="show"
+  })
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
