@@ -52,25 +52,31 @@ h3{
 }
 
 
-.question{
-    font-weight: 600;
+#Q-C, #Q-C2{
+    display:none;
+    height: 200px;
+    width: 50%;
+    margin: 20px;
+    background: green;
+
 }
-.answers {
-    margin-bottom: 20px;
+#Q-C.show, #Q-C2.show{
+    display:block;
 }
-#submit{
-    font-family: sans-serif;
-    font-size: 20px;
-    background-color: #297;
-    color: #fff;
-    border: 0px;
-    border-radius: 3px;
-    padding: 20px;
-    cursor: pointer;
-    margin-bottom: 20px;
+
+#Q-S, #Q-S2{
+    text-align: center;
+    font-size: 40px;
 }
-#submit:hover{
-    background-color: #3a8;
+.button{
+    display:flex;
+    flex-direction: column;
+    
 }
+
+
+    
+
+
 
 

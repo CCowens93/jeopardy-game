@@ -1,150 +1,82 @@
-var myQuestions = [
+let points = 0
+let myQuestions = [
     {
         question: "What is 10/2?",
-        answers: {
-            a: '3',
-            b: '5',
-            c: '115'
-        },
-        correctAnswer: 'b'
-    }
-]
+        answerA: [3, false],
+        answerB: [5, true],
+        answerC: [15, false], 
+        answerD: [7, false]
+    },
 
-var quizContainer = document.getElementById('Q1');
-var resultsContainer = document.getElementById('results');
-var submitButton = document.getElementById('submit');
-
-
-generateQuiz(myQuestions, quizContainer, resultsContainer, submitButton);
-
-function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
-
-    function showQuestions(questions, quizContainer){
-        // we'll need a place to store the output and the answer choices
-        var output = [];
-        var answers;
-
-        // for each question...
-        for(var i=0; i<questions.length; i++){
-            
-            // first reset the list of answers
-            answers = [];
-
-            // for each available answer...
-            for(letter in questions[i].answers){
-
-                // ...add an html radio button
-                answers.push(
-                    '<label>'
-                        + '<input type="radio" name="question'+i+'" value="'+letter+'">'
-                        + letter + ': '
-                        + questions[i].answers[letter]
-                    + '</label>'
-                );
-            }
-
-            // add this question and its answers to the output
-            output.push(
-                '<div class="question">' + questions[i].question + '</div>'
-                + '<div class="answers">' + answers.join('') + '</div>'
-            );
-        }
-
-        // finally combine our output list into one string of html and put it on the page
-        quizContainer.innerHTML = output.join('');
-    }
-
-
-    function showResults(questions, quizContainer, resultsContainer){
-        
-        // gather answer containers from our quiz
-        var answerContainers = quizContainer.querySelectorAll('.answers');
-        
-        // keep track of user's answers
-        var userAnswer = '';
-        var numCorrect = 0;
-        
-        // for each question...
-        for(var i=0; i<questions.length; i++){
-
-            // find selected answer
-            userAnswer = (answerContainers[i].querySelector('input[name=question'+i+']:checked')||{}).value;
-            
-            // if answer is correct
-            if(userAnswer===questions[i].correctAnswer){
-                // add to the number of correct answers
-                numCorrect++;
-                
-                // color the answers green
-                answerContainers[i].style.color = 'lightgreen';
-            }
-            // if answer is wrong or blank
-            else{
-                // color the answers red
-                answerContainers[i].style.color = 'red';
-            }
-        }
-
-        // show number of correct answers out of total
-        resultsContainer.innerHTML = numCorrect + ' out of ' + questions.length;
-    }
-
-    // show questions right away
-    showQuestions(questions, quizContainer);
     
-    // on submit, show results
-    submitButton.onclick = function(){
-        showResults(questions, quizContainer, resultsContainer);
-    }
+    {   question: "What color is the sky?",
+        answerA: ["blue", true],
+        answerB: ["green", false],
+        answerC: ["red", false],
+        answerD: ["purple", false]
+        
+    }]
+    //{
+     //   question: "Which is a card game?",
+      //  answerA: ["monopoly",false],
+      //  answerB: ["chess", false],
+      //  answerC: ["solitaire", true],
+      //  answerD: ["clue", false]
+   // }
+   
 
-}
+const CategoryOne100Points = myQuestions[0];
+document.getElementById('Q-S').innerHTML = myQuestions[0].question
+document.getElementById('answer-1').innerHTML = myQuestions[0].answerA[0]
+document.getElementById('answer-2').innerHTML = myQuestions[0].answerB[0]
+document.getElementById('answer-3').innerHTML = myQuestions[0].answerC[0]
+document.getElementById('answer-4').innerHTML = myQuestions[0].answerD[0]
+let QuestionOne = document.getElementById('Q1');{
+    QuestionOne.addEventListener('click', () =>{
+        document.getElementById('Q-C').className ="show"
+  })
+}   
+
+const CategoryTwo100Points = myQuestions[1];
+document.getElementById('Q-S2').innerHtml = myQuestions[1].question
+document.getElementById('answer-1-2').innerHTML = myQuestions[1].answerA[0]
+document.getElementById('answer-2-2').innerHTML = myQuestions[1].answerB[0]
+document.getElementById('answer-3-2').innerHTML = myQuestions[1].answerC[0]
+document.getElementById('answer-4-2').innerHTML = myQuestions[1].answerD[0]
+let QuestionTwo = document.getElementById('Q2');{
+    QuestionTwo.addEventListener('click', () =>{
+        document.getElementById('Q-C2').className ="show"
+  })
+}   
 
 
 
 
 
+// let categoryTwo = document.getElementsByClassName('category-2');
+// for(let i=0; i < categoryTwo.length; i++){
+//     categoryTwo[i].addEventListener('click', () =>{
+//         alert('hello')
+//     })
+// }
 
+// let categoryThree = document.getElementsByClassName('category-3');
+// for(let i=0; i < categoryThree.length; i ++){
+//     categoryThree[i].addEventListener('click', () =>{
+//         alert('hello')
+//     })
+// }
 
+// let categoryFour = document.getElementsByClassName('category-4');
+// for (let i=0; i <categoryFour.length; i++){
+//     categoryFour[i].addEventListener('click', () =>{
+//     alert('hello')
+//     })
+// }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-let categoryTwo = document.getElementsByClassName('category-2');
-for(let i=0; i < categoryTwo.length; i++){
-    categoryTwo[i].addEventListener('click', () =>{
-        alert('hello')
-    })
-}
-
-let categoryThree = document.getElementsByClassName('category-3');
-for(let i=0; i < categoryThree.length; i ++){
-    categoryThree[i].addEventListener('click', () =>{
-        alert('hello')
-    })
-}
-
-let categoryFour = document.getElementsByClassName('category-4');
-for (let i=0; i <categoryFour.length; i++){
-    categoryFour[i].addEventListener('click', () =>{
-    alert('hello')
-    })
-}
-
-let categoryFice = document.getElementsByClassName('category-5');
-for (let i=0; i < categoryFive.length; i++){
-    categoryFive[i].addEventListener('click', ()=>{
-    alert('hello')
-})
-}
-
-//<INPUT TYPE="button" VALUE="Back" onClick="history.go(-1);"></INPUT>
+// let categoryFice = document.getElementsByClassName('category-5');
+// for (let i=0; i < categoryFive.length; i++){
+//     categoryFive[i].addEventListener('click', ()=>{
+//     alert('hello')
+//     })
+// }
