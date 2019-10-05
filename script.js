@@ -1,11 +1,10 @@
-let points = 0
 let myQuestions = [
     {
         question: ["What is 10/2?"],
-        answerA: [3, false],
-        answerB: [5, true],
-        answerC: [15, false], 
-        answerD: [7, false]
+        answerA: 3 ,
+        answerB: 5,
+        answerC: 17, 
+        answerD: 7
     },
 
     
@@ -36,28 +35,117 @@ let myQuestions = [
         answerB: ["chess", false],
         answerC: ["solitaire", true],
         answerD: ["clue", false]
+    },
+    {   
+        question: ["Which is a card game?"],
+        answerA: ["monopoly",false],
+        answerB: ["chess", false],
+        answerC: ["solitaire", true],
+        answerD: ["clue", false]
+    },
+    {   
+        question: ["Which is a card game?"],
+        answerA: ["monopoly",false],
+        answerB: ["chess", false],
+        answerC: ["solitaire", true],
+        answerD: ["clue", false]
+    },
+    {   
+        question: ["Which is a card game?"],
+        answerA: ["monopoly",false],
+        answerB: ["chess", false],
+        answerC: ["solitaire", true],
+        answerD: ["clue", false]
+    },
+    {   
+        question: ["Which is a card game?"],
+        answerA: ["monopoly",false],
+        answerB: ["chess", false],
+        answerC: ["solitaire", true],
+        answerD: ["clue", false]
+    },
+    {   
+        question: ["Which is a card game?"],
+        answerA: ["monopoly",false],
+        answerB: ["chess", false],
+        answerC: ["solitaire", true],
+        answerD: ["clue", false]
+    },
+    {   
+        question: ["Which is a card game?"],
+        answerA: ["monopoly",false],
+        answerB: ["chess", false],
+        answerC: ["solitaire", true],
+        answerD: ["clue", false]
+    },
+    {   
+        question: ["Which is a card game?"],
+        answerA: ["monopoly",false],
+        answerB: ["chess", false],
+        answerC: ["solitaire", true],
+        answerD: ["clue", false]
+    },
+    {   
+        question: ["Which is a card game?"],
+        answerA: ["monopoly",false],
+        answerB: ["chess", false],
+        answerC: ["solitaire", true],
+        answerD: ["clue", false]
+    },
+    {   
+        question: ["Which is a card game?"],
+        answerA: ["monopoly",false],
+        answerB: ["chess", false],
+        answerC: ["solitaire", true],
+        answerD: ["clue", false]
+    },
+    {   
+        question: ["Which is a card game?"],
+        answerA: ["monopoly",false],
+        answerB: ["chess", false],
+        answerC: ["solitaire", true],
+        answerD: ["clue", false]
+    },
+    {   
+        question: ["Which is a card game?"],
+        answerA: ["monopoly",false],
+        answerB: ["chess", false],
+        answerC: ["solitaire", true],
+        answerD: ["clue", false]
+    },
+]
+let points= 0
+function drawPoints(){
+    ctx.font = "16px Arial";
+    ctx.fillStyle = "#0095DD";
+    ctx.fillText("Score: " ++, 8, 20);
 }
 
 
 
 
-]
 
-
-
-   
 
 const CategoryOne100Points = myQuestions[0];
 document.getElementById('Q-S').innerHTML = myQuestions[0].question
-document.getElementById('answer-1').innerHTML = myQuestions[0].answerA[0]
-document.getElementById('answer-2').innerHTML = myQuestions[0].answerB[0]
-document.getElementById('answer-3').innerHTML = myQuestions[0].answerC[0]
-document.getElementById('answer-4').innerHTML = myQuestions[0].answerD[0]
+document.getElementById('answer-1').innerHTML = myQuestions[0].answerA
+document.getElementById('answer-2').innerHTML = myQuestions[0].answerB
+document.getElementById('answer-3').innerHTML = myQuestions[0].answerC
+document.getElementById('answer-4').innerHTML = myQuestions[0].answerD
 let QuestionOne = document.getElementById('Q1');{
     QuestionOne.addEventListener('click', () =>{
         document.getElementById('Q-C').className ="show"
   })
+let answers = document.getElementById('answer-2');{
+    answers.addEventListener('click', () =>{
+        alert('correct')})
+       
+    
+}        
+          
 }
+ 
+
 const CategoryOne200Points = myQuestions[1];
 document.getElementById('Q-S2').innerHtml = myQuestions[1].question
 document.getElementById('answer-1-2').innerHTML = myQuestions[1].answerA[0]
@@ -222,30 +310,6 @@ let QuestionSixteen = document.getElementById('Q16');{
     QuestionSixteen.addEventListener('click', () =>{
         document.getElementById('Q-C16').className ="show"
   })
-}   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 

@@ -13,11 +13,25 @@
 <body>
     <h1>Trivia</h1>
 
+    <div class="scoreboard">
+        
+        <p id="p">0</p>
+        <button onclick= "add()">Click Me To Get One Points</button>
+        <script>
+                function add()
+                {
+                var score = document.getElementById("p").textContent
+                score++
+                document.getElementById("p").innerHTML = score
+                }
+                </script>
+    </div>
     <!-- hide by default and unhide when question is clicked -->
     <!-- display:none to hide and display:block to show -->
         
     <div id="Q-C">
             <div id="Q-S">What is 10/2?</div>
+            
                 <div class="button">
                     <button><div id="answer-1"></div> </button>
                     <button><div id="answer-2"></div> </button>

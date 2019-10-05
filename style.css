@@ -69,9 +69,21 @@ h3{
     font-size: 20px;
 }
 .button{
-    display:flex;
-    flex-direction: column;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   background-color: black;
 }
+
+.scoreboard{
+    height:100px;
+    width: 150px;
+    background-color: #0055ff;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+   
 
 
     
