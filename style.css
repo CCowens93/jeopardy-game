@@ -72,17 +72,26 @@ h3{
    display:flex;
    justify-content: center;
    align-items: center;
-   background-color: black;
+   padding: 40px;
 }
 
 .scoreboard{
-    height:100px;
+    height:70px;
     width: 150px;
     background-color: #0055ff;
     margin-bottom: 30px;
     text-align: center;
+    
 
 }
+button{
+    display: flex;
+    height:30px;
+    width: 40px;
+    padding: 30px;
+}
+
+
    
 
 

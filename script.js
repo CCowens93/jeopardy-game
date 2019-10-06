@@ -1,10 +1,11 @@
+let value = 100
 let myQuestions = [
     {
         question: ["What is 10/2?"],
-        answerA: 3 ,
-        answerB: 5,
-        answerC: 17, 
-        answerD: 7
+        answerA: [3] ,
+        answerB: [5],
+        answerC: [17], 
+        answerD: [7]
     },
 
     
@@ -114,12 +115,8 @@ let myQuestions = [
         answerD: ["clue", false]
     },
 ]
-let points= 0
-function drawPoints(){
-    ctx.font = "16px Arial";
-    ctx.fillStyle = "#0095DD";
-    ctx.fillText("Score: " ++, 8, 20);
-}
+
+
 
 
 
@@ -135,15 +132,29 @@ document.getElementById('answer-4').innerHTML = myQuestions[0].answerD
 let QuestionOne = document.getElementById('Q1');{
     QuestionOne.addEventListener('click', () =>{
         document.getElementById('Q-C').className ="show"
-  })
-let answers = document.getElementById('answer-2');{
-    answers.addEventListener('click', () =>{
-        alert('correct')})
-       
+    });
+let correctAnswer = document.getElementById('answer-2');{
+    correctAnswer.addEventListener('click', () =>{
+        alert('correct')
+    });
+// let wrongAnswer = document.getElementById('answer-1');{
+//     wrongAnswer.addEventListener('click', () =>{
+//         alert('wrong')
+//     });
+// let wrongAnswer2 = document.getElementById('answer-3');{
+//         wrongAnswer2.addEventListener('click', () =>{
+//             alert('wrong')
+//     });
+// let wrongAnswer3 = document.getElementById('answer-4');{
+//             wrongAnswer3.addEventListener('click', () =>{
+//                 alert('wrong')
+//     });
+
+}
     
 }        
           
-}
+
  
 
 const CategoryOne200Points = myQuestions[1];
