@@ -3,6 +3,12 @@
     margin: 0 auto;
 }  
 
+body {
+	background-image: url("HPTrivia-background.jpeg");
+        background-repeat:no-repeat;
+       background-size: cover;
+} 
+
 
 body{
     font-family: 'Bangers', cursive;
@@ -15,6 +21,7 @@ h1{
     font-size: 100px;
     padding: 60px;
     margin: 10px;
+    color: #800000;
 }
 
 h2{
@@ -33,7 +40,7 @@ h3{
     flex-direction: column;
     margin: 0px;
     outline-style: solid;
-    background-color: lightskyblue;
+    background-color: #FFBD1B;
 }
 
 .gameboard{
@@ -80,10 +87,10 @@ h3{
 }
 
 .scoreboard{
-    height:70px;
-    width: 150px;
+    height:150px;
+    width: 300px;
     background-color: #0055ff;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     text-align: center;
     
     
