@@ -7,3 +7,6 @@ Out of a possible 3000 points, 2000 points are required to win the game. Be sure
 
 https://app.netlify.com/sites/tender-lewin-6daec9/overview
 link to the game
+
+https://trello.com/b/4y300817/jeopardy-planning
+planning board
