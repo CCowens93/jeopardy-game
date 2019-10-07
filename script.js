@@ -1,4 +1,50 @@
-let value = 100
+let score = 0
+function add100(i)
+                {
+                var score = document.getElementById("p").textContent
+                for(let i=1; i < 101; i++)
+                score ++
+                document.getElementById("p").innerHTML = score
+                }
+            
+ function add200(i)
+                {
+                var score = document.getElementById("p").textContent
+                for(let i= 1; i < 201; i++)        
+                score ++ 
+                document.getElementById("p").innerHTML = score
+                }
+                
+function add300(i)
+                {
+                var score = document.getElementById("p").textContent
+                for(let i =1; i < 301; i++)
+                score++
+                document.getElementById("p").innerHTML = score
+                }
+                
+      
+function add400(i)
+                {
+                var score = document.getElementById("p").textContent
+                for (let i =1; i < 401; i++)
+                score++
+                document.getElementById("p").innerHTML = score
+                }
+function setVisibility(id, visibility) {
+                document.getElementById(id).style.display = visibility;
+                    }
+                    
+
+
+
+if(score === 2000){
+    console.log('You win!')
+}
+
+
+                   
+
 let myQuestions = [
     {
         question: ["What is 10/2?"],
