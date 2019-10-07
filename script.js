@@ -55,83 +55,83 @@ let myQuestions = [
     },
 
     
-    {   question: ["What color is the sky?"],
-        answerA: ["blue", true],
-        answerB: ["green", false],
-        answerC: ["red", false],
-        answerD: ["purple", false]
+    {   question: ["Who invented the Elixir of Life?"],
+        answerA: ["Nicolas Flamel"],
+        answerB: ["Gellert GrindelWald"],
+        answerC: ["Albus Dumbledore"],
+        answerD: ["Newt Scamander"]
         
     },
     {
-        question: ["Which is a card game?"],
-        answerA: ["monopoly",false],
-        answerB: ["chess", false],
-        answerC: ["solitaire", true],
-        answerD: ["clue", false]
+        question: ["Which of the following is not an ingredient in the Polyjuice Potion?"],
+        answerA: ["Knotgrass"],
+        answerB: ["Lacewing Flies"],
+        answerC: ["Sneezewort"],
+        answerD: ["Fluxweed"]
    },
    {
-        question: ["Which is a card game?"],
-        answerA: ["monopoly",false],
-        answerB: ["chess", false],
-        answerC: ["solitaire", true],
-        answerD: ["clue", false]
+        question: ["What potion is created by mixing powdered root of asphodel to an infusion of wormwood?"],
+        answerA: ["Draught of Peace"],
+        answerB: ["Draught of Living Death"],
+        answerC: ["Invigoration Draught"],
+        answerD: ["Strengthening Solution"]
     },
     {   
-        question: ["Which is a card game?"],
-        answerA: ["monopoly",false],
-        answerB: ["chess", false],
-        answerC: ["solitaire", true],
-        answerD: ["clue", false]
+        question: ["Which Hogwarts house did Moaning Myrtle belond in?"],
+        answerA: ["Gryffindor"],
+        answerB: ["Slytherin"],
+        answerC: ["Ravenclaw"],
+        answerD: ["Hufflepuff"]
     },
     {   
-        question: ["Which is a card game?"],
-        answerA: ["monopoly",false],
-        answerB: ["chess", false],
-        answerC: ["solitaire", true],
-        answerD: ["clue", false]
+        question: ["Which floor was forbidden to students on Harry Potter's first year?"],
+        answerA: ["fourth"],
+        answerB: ["first"],
+        answerC: ["seventh"],
+        answerD: ["second"]
     },
     {   
-        question: ["Which is a card game?"],
-        answerA: ["monopoly",false],
-        answerB: ["chess", false],
-        answerC: ["solitaire", true],
-        answerD: ["clue", false]
+        question: ["Which magical creature is not native to the Forbidden Forest?"],
+        answerA: ["Acromantula"],
+        answerB: ["Centaur"],
+        answerC: ["Thunderbird"],
+        answerD: ["Unicorn"]
     },
     {   
-        question: ["Which is a card game?"],
-        answerA: ["monopoly",false],
-        answerB: ["chess", false],
-        answerC: ["solitaire", true],
-        answerD: ["clue", false]
+        question: ["Which fruit do you tickle to get into the Hogwarts kitchens?"],
+        answerA: ["Pear"],
+        answerB: ["Peach"],
+        answerC: ["Apple"],
+        answerD: ["Grapes"]
     },
     {   
-        question: ["Which is a card game?"],
-        answerA: ["monopoly",false],
-        answerB: ["chess", false],
-        answerC: ["solitaire", true],
-        answerD: ["clue", false]
+        question: ["What is Harry Potter's patronus?"],
+        answerA: ["Doe"],
+        answerB: ["Stag"],
+        answerC: ["Otter"],
+        answerD: ["Phoenix"]
     },
     {     
-        question: ["Which is a card game?"],
-        answerA: ["monopoly",false],
-        answerB: ["chess", false],
-        answerC: ["solitaire", true],
-        answerD: ["clue", false]
+        question: ["Which of these is a summoning spell?"],
+        answerA: ["Accio"],
+        answerB: ["Stupefy"],
+        answerC: ["Aguamenti"],
+        answerD: ["confundo"]
         
     },
     {   
-        question: ["Which is a card game?"],
-        answerA: ["monopoly",false],
-        answerB: ["chess", false],
-        answerC: ["solitaire", true],
-        answerD: ["clue", false]
+        question: ["Which of these is not an Unforgivable Curse?"],
+        answerA: ["Imperius Curse"],
+        answerB: ["Cruciatus Curse"],
+        answerC: ["The Killing Curse"],
+        answerD: ["Flagrante Curse"]
     },
     {   
-        question: ["Which is a card game?"],
-        answerA: ["monopoly",false],
-        answerB: ["chess", false],
-        answerC: ["solitaire", true],
-        answerD: ["clue", false]
+        question: ["What does Antonin Dolohov's curse achieve?"],
+        answerA: ["Gives the recipient to get a strong cold"],
+        answerB: ["Causes things to explode"],
+        answerC: ["Causes a streak of purple flame to hit the target"],
+        answerD: ["Makes the target's ears shrivel up"]
     },
     {   
         question: ["Which class did Snape always want to teach?"],
@@ -141,25 +141,25 @@ let myQuestions = [
         answerD: ["transfiguration"]
     },
     {   
-        question: ["Which is a card game?"],
-        answerA: ["monopoly",false],
-        answerB: ["chess", false],
-        answerC: ["solitaire", true],
-        answerD: ["clue", false]
+        question: ["What is the name of the oldest Weasley sibling?"],
+        answerA: ["Ron"],
+        answerB: ["Charlie"],
+        answerC: ["Percy"],
+        answerD: ["Bill"]
     },
     {   
-        question: ["Which is a card game?"],
-        answerA: ["monopoly",false],
-        answerB: ["chess", false],
-        answerC: ["solitaire", true],
-        answerD: ["clue", false]
+        question: ["Who does Ron impersonate to sneak into the Ministry of Magic?"],
+        answerA: ["Dirk Cresswell"],
+        answerB: ["Reginald Cattermole"],
+        answerC: ["John Dawlish"],
+        answerD: ["Lucius Malfoy"]
     },
     {   
-        question: ["Which is a card game?"],
-        answerA: ["monopoly",false],
-        answerB: ["chess", false],
-        answerC: ["solitaire", true],
-        answerD: ["clue", false]
+        question: ["Which Marauder became a Death Eater?"],
+        answerA: ["Sirius Black"],
+        answerB: ["James Potter"],
+        answerC: ["Remus Lupin"],
+        answerD: ["Peter Pettigrew"]
     },
 ]
 
@@ -184,10 +184,6 @@ let correctAnswer = document.getElementById('answer-2');{
     correctAnswer.addEventListener('click', () =>{
         alert('correct')
     });
-// let questionOver = document.getElementsByClassName('Q1');{
-//     questionOver.addEventListener('click', () =>{
-//         document.getElementsByClassName('Q-C').className ="hide"
-//     })
 // }
 // let wrongAnswer = document.getElementById('answer-1');{
 //     wrongAnswer.addEventListener('click', () =>{
