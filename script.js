@@ -47,11 +47,11 @@ if(score === 2000){
 
 let myQuestions = [
     {
-        question: ["What is 10/2?"],
-        answerA: [3] ,
-        answerB: [5],
-        answerC: [17], 
-        answerD: [7]
+        question: ["Which of these is a good luck potion?"],
+        answerA: ["Amortentia"] ,
+        answerB: ["Felix Felicis"],
+        answerC: ["Polyjuice Potion"], 
+        answerD: ["Veritaserum"]
     },
 
     
@@ -111,12 +111,13 @@ let myQuestions = [
         answerC: ["solitaire", true],
         answerD: ["clue", false]
     },
-    {   
+    {     
         question: ["Which is a card game?"],
         answerA: ["monopoly",false],
         answerB: ["chess", false],
         answerC: ["solitaire", true],
         answerD: ["clue", false]
+        
     },
     {   
         question: ["Which is a card game?"],
@@ -133,11 +134,11 @@ let myQuestions = [
         answerD: ["clue", false]
     },
     {   
-        question: ["Which is a card game?"],
-        answerA: ["monopoly",false],
-        answerB: ["chess", false],
-        answerC: ["solitaire", true],
-        answerD: ["clue", false]
+        question: ["Which class did Snape always want to teach?"],
+        answerA: ["Defence Against The Dark Arts"],
+        answerB: ["Potions"],
+        answerC: ["Charms"],
+        answerD: ["transfiguration"]
     },
     {   
         question: ["Which is a card game?"],
