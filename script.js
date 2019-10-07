@@ -137,6 +137,11 @@ let correctAnswer = document.getElementById('answer-2');{
     correctAnswer.addEventListener('click', () =>{
         alert('correct')
     });
+// let questionOver = document.getElementsByClassName('Q1');{
+//     questionOver.addEventListener('click', () =>{
+//         document.getElementsByClassName('Q-C').className ="hide"
+//     })
+// }
 // let wrongAnswer = document.getElementById('answer-1');{
 //     wrongAnswer.addEventListener('click', () =>{
 //         alert('wrong')

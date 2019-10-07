@@ -19,33 +19,40 @@
         <p id="p">0</p>
 
         <script>
-                function add100()
+            function add100(i)
                 {
-                let score = document.getElementById("p").textContent
-                score++
-                document.getElementById("p").innerText = score
+                var score = document.getElementById("p").textContent
+                for(let i=1; i < 101; i++)
+                score ++
+                console.log(i);
+                document.getElementById("p").innerHTML = score
+                }
+            
+            
+                </script>
+        <script>
+                function add200(i)
+                {
+                var score = document.getElementById("p").textContent
+                for(let i= 1; i < 201; i++)        
+                score ++ 
+                document.getElementById("p").innerHTML = score
                 }
                 </script>
         <script>
-                function add200()
+                function add300(i)
                 {
                 var score = document.getElementById("p").textContent
+                for(let i =1; i < 301; i++)
                 score++
                 document.getElementById("p").innerHTML = score
                 }
                 </script>
         <script>
-                function add300()
+                function add400(i)
                 {
                 var score = document.getElementById("p").textContent
-                score++
-                document.getElementById("p").innerHTML = score
-                }
-                </script>
-        <script>
-                function add400()
-                {
-                var score = document.getElementById("p").textContent
+                for (let i =1; i < 401; i++)
                 score++
                 document.getElementById("p").innerHTML = score
                 }
