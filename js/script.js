@@ -35,9 +35,7 @@ function setVisibility(id, visibility) {
 
 
 let score = 0
-if(score >=2000){
-    console.log('You win!')
-}
+
 
 
                    
