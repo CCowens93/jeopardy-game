@@ -69,9 +69,9 @@ h3{
 
 #Q-C, #Q-C2, #Q-C3, #Q-C4, #Q-C5, #Q-C6, #Q-C7, #Q-C8, #Q-C9, #Q-C10, #Q-C11, #Q-C12, #Q-C13, #Q-C14, #Q-C15, #Q-C16{
     display:none;
-    height: 200px;
-    width: 200px;
-    margin: 20px;
+    height: 300px;
+    width: 300px;
+    margin: 30px;
     background: green;
 
 }
@@ -79,7 +79,7 @@ h3{
 
 #Q-C.show, #Q-C2.show, #Q-C3.show, #Q-C4.show, #Q-C5.show, #Q-C6.show, #Q-C7.show, #Q-C8.show, #Q-C9.show, #Q-C10.show, #Q-C11.show, #Q-C12.show, #Q-C13.show, #Q-C14.show, #Q-C15.show, #Q-C16.show{
     display: inline-block;
-    height: 160px;
+    height: 250px;
     width: 400px;
 }
 
