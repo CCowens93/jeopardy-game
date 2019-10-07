@@ -10,3 +10,5 @@ link to the game
 
 https://trello.com/b/4y300817/jeopardy-planning
 planning board
+
+https://imgur.com/a/r5EVndM
