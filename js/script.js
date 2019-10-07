@@ -263,9 +263,9 @@ document.getElementById('answer-1-10').innerHTML = myQuestions[9].answerA[0]
 document.getElementById('answer-2-10').innerHTML = myQuestions[9].answerB[0]
 document.getElementById('answer-3-10').innerHTML = myQuestions[9].answerC[0]
 document.getElementById('answer-4-10').innerHTML = myQuestions[9].answerD[0]
-let QuestionTen = document.getElementById('Q9');{
+let QuestionTen = document.getElementById('Q10');{
     QuestionTen.addEventListener('click', () =>{
-        document.getElementById('Q-C9').className ="show"
+        document.getElementById('Q-C10').className ="show"
   })
 } 
 const CategoryThree300Points = myQuestions[10];
@@ -274,9 +274,9 @@ document.getElementById('answer-1-11').innerHTML = myQuestions[10].answerA[0]
 document.getElementById('answer-2-11').innerHTML = myQuestions[10].answerB[0]
 document.getElementById('answer-3-11').innerHTML = myQuestions[10].answerC[0]
 document.getElementById('answer-4-11').innerHTML = myQuestions[10].answerD[0]
-let QuestionEleven = document.getElementById('Q10');{
+let QuestionEleven = document.getElementById('Q11');{
     QuestionEleven.addEventListener('click', () =>{
-        document.getElementById('Q-C10').className ="show"
+        document.getElementById('Q-C11').className ="show"
   })
 } 
 const CategoryThree400Points = myQuestions[11];

@@ -19,8 +19,8 @@ h1{
     display: flex;
     justify-content: center;
     font-size: 100px;
-    padding: 60px;
-    margin: 10px;
+    padding: 20px;
+    margin: 20px;
     color: #800000;
 }
 
@@ -46,14 +46,21 @@ h3{
 .gameboard{
     display:flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-end;
+    margin: 20px 100px;
+
+    
+}
+.gameboard .scoreboard{
+    display: flex;
+    justify-content: flex-start;
     
 }
 
 .column1 a, .column2 a, .column3 a, .column4 a, .column5 a{
     outline-style: solid;
     color: black;
-    margin: 50px;
+    margin: 20px 70px;
     padding: 20px 30px;
     text-decoration: none;
 }
@@ -63,7 +70,7 @@ h3{
 #Q-C, #Q-C2, #Q-C3, #Q-C4, #Q-C5, #Q-C6, #Q-C7, #Q-C8, #Q-C9, #Q-C10, #Q-C11, #Q-C12, #Q-C13, #Q-C14, #Q-C15, #Q-C16{
     display:none;
     height: 200px;
-    width: 50%;
+    width: 200px;
     margin: 20px;
     background: green;
 
@@ -71,7 +78,7 @@ h3{
 
 
 #Q-C.show, #Q-C2.show, #Q-C3.show, #Q-C4.show, #Q-C5.show, #Q-C6.show, #Q-C7.show, #Q-C8.show, #Q-C9.show, #Q-C10.show, #Q-C11.show, #Q-C12.show, #Q-C13.show, #Q-C14.show, #Q-C15.show, #Q-C16.show{
-    display: block;
+    display: inline-block;
     height: 160px;
     width: 400px;
 }
