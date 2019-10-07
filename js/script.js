@@ -1,4 +1,3 @@
-let score = 0
 function add100(i)
                 {
                 var score = document.getElementById("p").textContent
@@ -22,8 +21,6 @@ function add300(i)
                 score++
                 document.getElementById("p").innerHTML = score
                 }
-                
-      
 function add400(i)
                 {
                 var score = document.getElementById("p").textContent
@@ -37,8 +34,8 @@ function setVisibility(id, visibility) {
                     
 
 
-
-if(score === 2000){
+let score = 0
+if(score >=2000){
     console.log('You win!')
 }
 
@@ -163,13 +160,6 @@ let myQuestions = [
     },
 ]
 
-
-
-
-
-
-
-
 const CategoryOne100Points = myQuestions[0];
 document.getElementById('Q-S').innerHTML = myQuestions[0].question
 document.getElementById('answer-1').innerHTML = myQuestions[0].answerA
@@ -180,31 +170,7 @@ let QuestionOne = document.getElementById('Q1');{
     QuestionOne.addEventListener('click', () =>{
         document.getElementById('Q-C').className ="show"
     });
-let correctAnswer = document.getElementById('answer-2');{
-    correctAnswer.addEventListener('click', () =>{
-        alert('correct')
-    });
-// }
-// let wrongAnswer = document.getElementById('answer-1');{
-//     wrongAnswer.addEventListener('click', () =>{
-//         alert('wrong')
-//     });
-// let wrongAnswer2 = document.getElementById('answer-3');{
-//         wrongAnswer2.addEventListener('click', () =>{
-//             alert('wrong')
-//     });
-// let wrongAnswer3 = document.getElementById('answer-4');{
-//             wrongAnswer3.addEventListener('click', () =>{
-//                 alert('wrong')
-//     });
-
-}
-    
 }        
-          
-
- 
-
 const CategoryOne200Points = myQuestions[1];
 document.getElementById('Q-S2').innerHtml = myQuestions[1].question
 document.getElementById('answer-1-2').innerHTML = myQuestions[1].answerA[0]
