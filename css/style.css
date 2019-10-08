@@ -21,7 +21,8 @@ h1{
     font-size: 100px;
     padding: 20px;
     margin: 20px;
-    color: #800000;
+    color: #990707;
+    text-shadow: 5px 5px 5px #000000;
 }
 
 h2{
@@ -46,7 +47,7 @@ h3{
 .gameboard{
     display:flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: flex-start;
     margin: 20px 100px;
 
     
@@ -54,6 +55,7 @@ h3{
 .gameboard .scoreboard{
     display: flex;
     justify-content: flex-start;
+    border: solid;
     
 }
 
@@ -81,6 +83,9 @@ h3{
     display: inline-block;
     height: 250px;
     width: 400px;
+    position: absolute;
+    margin: auto 0;
+    border: solid;
 }
 
 #Q-S, #Q-S2, #Q-S3, #Q-S4, #Q-S5, #Q-S6, #Q-S7, #Q-S8, #Q-S9, #Q-S10, #Q-S11, #Q-S12, #Q-S13, #Q-S14, #Q-S15, #Q-S16{
@@ -103,7 +108,11 @@ h3{
     height:150px;
     width: 300px;
     background-color: #0055ff;
-    margin-bottom: 50px;
+    margin-top:275px;
+    
+    
+    
+    
 }
 button{
     display: flex;
