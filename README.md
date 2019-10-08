@@ -5,7 +5,7 @@ Once a question is answered you will either gains points or gain nothing. You on
 Out of a possible 4000 points, 3000 points are required to win the game. Be sure to answer every question to increase your chances of winning.
 
 
-https://vibrant-einstein-e29825.netlify.com/#
+https://heuristic-leakey-615fe1.netlify.com/#
 link to the game
 
 https://trello.com/b/4y300817/jeopardy-planning

@@ -67,14 +67,22 @@ h3{
     text-decoration: none;
 }
 
-
+.question-block{
+    display: inline-block;
+    height: 250px;
+    width: 400px;
+    position: absolute;
+    margin: auto 0;
+    border: solid;
+    background-color: green;
+}
 
 #Q-C, #Q-C2, #Q-C3, #Q-C4, #Q-C5, #Q-C6, #Q-C7, #Q-C8, #Q-C9, #Q-C10, #Q-C11, #Q-C12, #Q-C13, #Q-C14, #Q-C15, #Q-C16{
     display:none;
     height: 300px;
     width: 300px;
     margin: 30px;
-    background: green;
+    background:
 
 }
 
