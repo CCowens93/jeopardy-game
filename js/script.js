@@ -7,7 +7,7 @@ function add0(i) {
     console.log('score', score)
     document.getElementById("p").innerHTML = score
     if (score >= 3000 && questionsUnanswered == 0) {
-         alert('You win!')
+        alert('You win!')
     } else if (score < 3000 && questionsUnanswered == 0) {
         alert('You lose')
     }
@@ -22,7 +22,7 @@ function add100(i) {
     console.log('score', score)
     document.getElementById("p").innerHTML = score
     if (score >= 3000 && questionsUnanswered == 0) {
-         alert('You win!')
+        alert('You win!')
     } else if (score < 3000 && questionsUnanswered == 0) {
         alert('You lose')
     }
@@ -47,7 +47,7 @@ function add300(i) {
     document.getElementById("p").innerHTML = score
     if (score >= 3000 && questionsUnanswered == 0) {
         alert('You win!')
-    } else if(score < 3000 && questionsUnanswered == 0) {
+    } else if (score < 3000 && questionsUnanswered == 0) {
         alert('You lose')
     }
 }
@@ -74,6 +74,12 @@ QuestionOne.addEventListener('click', (e) => {
     document.getElementById('Q-C').className = "show"
 });
 
+const wrongAnswer = () => {
+    alert('WRONG')
+}
+const rightAnswer = () => {
+    alert('CORRECT!')
+}
 
 let QuestionTwo = document.getElementById('Q2');
 QuestionTwo.addEventListener('click', (e) => {
